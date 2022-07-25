@@ -2,6 +2,7 @@
 
 ```console
 npm install
+npm i chart.js
 npm run dev
 ```
 

@@ -1,0 +1,30 @@
+.btnClean{
+  position: absolute;
+  width: 6rem;
+  height: 2rem;
+  border-radius: .25rem;
+  top: -20px;
+  right: 92px;
+  background-color: #199985;
+  box-sizing: content-box;
+  border: 2px solid #0ae98887;
+  cursor: pointer;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* transform: translateY(-50%); */
+  animation: animate 03s .5s both;
+  animation-duration: .7s;
+}
+
+.btnClean:hover{
+  filter: brightness(1.2);
+}
+.btnClean svg{
+  fill: #fbfbfb;
+  width: 1.2rem;
+  height: auto;
+}
